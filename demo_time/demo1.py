@@ -1,0 +1,11 @@
+import time
+t1 = time.clock()
+t3 = time.ctime()
+t2 = time.clock()
+t4 = time.ctime()
+print(t1)
+print(t2)
+print('t2-t1={}'.format(t2-t1))
+print(t3)
+print(t4)
+print('t4-t3={}'.format(t4-t3))
