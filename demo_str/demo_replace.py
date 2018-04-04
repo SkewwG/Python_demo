@@ -12,3 +12,4 @@ print(help(str.replace))
 a = "ASDfgh*123456ASDfgh*123456ASDfgh*123456ASDfgh*123456"
 print(a.replace('*', '-'))                  # ASDfgh-123456ASDfgh-123456ASDfgh-123456ASDfgh-123456
 print(a.replace('*', '-', 2))               # ASDfgh-123456ASDfgh-123456ASDfgh*123456ASDfgh*123456
+print(a)

@@ -14,9 +14,13 @@ pool.wait()
 '''
 
 import threadpool
+import time
+from threading import current_thread
 
 def func(name):
-    print('hello ',name)
+    print(current_thread() ,'hello ',name)
+    time.sleep(1)
+
 
 name_list =[i for i in range(100)]
 pool = threadpool.ThreadPool(10)

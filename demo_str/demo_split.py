@@ -11,7 +11,7 @@ split(...)
     removed from the result.
 '''
 print(help(str.split))
-a = "abcdeabcdeabcdeabcdeabcdeabcde"
-print(a.split('c'))                        # ['ab', 'deab', 'deab', 'deab', 'deab', 'deab', 'de']
-print(a.split('c', 1))                     # ['ab', 'deabcdeabcdeabcdeabcdeabcde']
-print(a.split('c', 3))                     # ['ab', 'deab', 'deab', 'deabcdeabcdeabcde']
+a = "abc1deabcdeab1cdeabcdeabcd1eabcde"
+print(a.split('1'))                        # ['ab', 'deab', 'deab', 'deab', 'deab', 'deab', 'de']
+print(a.split('d', 1))                     # ['ab', 'deabcdeabcdeabcdeabcdeabcde']
+print(a.split('d', 3))                     # ['ab', 'deab', 'deab', 'deabcdeabcdeabcde']

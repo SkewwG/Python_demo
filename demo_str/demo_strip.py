@@ -9,9 +9,10 @@ strip(...)
     If chars is given and not None, remove characters in chars instead.
 '''
 print(help(str.strip))
-a = '   asdfzxcvqwer   '
+a = '   asdfghjklk   '
 b = '***asdfzxcvqwer***'
-print(a.strip())                        # asdfzxcvqwer
+print(a)
+print(a.strip())                   # asdfzxcvqwer
 print(b.strip('*'))                     # asdfzxcvqwer
 
 

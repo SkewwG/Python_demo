@@ -1,0 +1,11 @@
+flow.request.url    http://www.xxx.com/1.php?xx=xx
+flow.request.headers
+    Cache-Control: private
+    Transfer-Encoding: chunked
+    Content-Type: text/html
+    Content-Encoding: gzip
+    Vary: Accept-Encoding
+    Set-Cookie: ASPSESSIONIDAACRTBAD=GMJNAPGCIFBFDJJAPEMDGOAN; path=/
+    Server: IIS
+    X-Powered-By: WAF/2.0
+    Date: Wed, 21 Feb 2018 03:02:39 GMT

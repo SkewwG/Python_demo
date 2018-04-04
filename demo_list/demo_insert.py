@@ -5,6 +5,6 @@ insert(...)
     L.insert(index, object) -- insert object before index
 '''
 print(help(list.insert))
-a = [1, 3, 2, 3, 3, 4, [5, 6], 'a', 'a', 'a', 'a']
+a = [1, 'a', 2, 'x', 'c', 4, [5, 6], 'a', 'a', 'a', 'a']
 a.insert(3, 'b')
 print(a)            # [1, 3, 2, 'b', 3, 3, 4, [5, 6], 'a', 'a', 'a', 'a']
