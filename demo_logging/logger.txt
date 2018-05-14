@@ -1,0 +1,4 @@
+2018-04-23 13:57:10,444 - demo_2.py[line:28] - INFO: this is a logger info message
+2018-04-23 13:57:10,444 - demo_2.py[line:29] - WARNING: this is a logger warning message
+2018-04-23 13:57:10,444 - demo_2.py[line:30] - ERROR: this is a logger error message
+2018-04-23 13:57:10,444 - demo_2.py[line:31] - CRITICAL: this is a logger critical message

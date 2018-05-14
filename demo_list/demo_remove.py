@@ -10,3 +10,4 @@ a = [1, 3, 2, 3, 3, 4, [5, 6], 'a', 'b', 'a', 'a', 'a']
 a.remove(3)
 a.remove('a')
 print(a)            # [1, 2, 3, 3, 4, [5, 6], 'b', 'a', 'a', 'a']
+from queue import Queue
